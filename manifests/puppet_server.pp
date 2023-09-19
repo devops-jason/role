@@ -1,8 +1,9 @@
-# @summary A short summary of the purpose of this class
+# @summary A role class to setup a puppet_server
 #
-# A description of what this class does
+# This includes the profiles needed to setup a puppet_server
 #
 # @example
 #   include role::puppet_server
 class role::puppet_server {
+    include role::puppet_server
 }
