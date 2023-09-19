@@ -5,5 +5,5 @@
 # @example
 #   include role::puppet_server
 class role::puppet_server {
-    include role::puppet_server
+    include profile::puppet::puppet_server
 }
