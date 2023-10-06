@@ -5,5 +5,8 @@
 # @example
 #   include role::puppet_server
 class role::puppet_server {
+    include profle::base
+    include profile::linux::base
     include profile::puppet::puppet_server
+    
 }
