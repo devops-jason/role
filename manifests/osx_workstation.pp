@@ -5,8 +5,6 @@
 # @example
 #   include role::osx_workstation
 class role::osx_workstation {
-    include profile::base
-    include profile::osx::base
-    include profile::puppet::puppet_client
-    
+  include profile::base
+  include profile::osx::base
 }

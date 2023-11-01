@@ -7,4 +7,5 @@
 class role::mini_server {
   include profile::base
   include profile::linux::base
+  include profile::puppet::puppet_client
 }
